@@ -12,3 +12,18 @@
 -  메뉴얼에서 검색을 할 수 있어야 합니다.
 
 ## thymleaf 템플릿 엔진
+
+---
+## 정적 컨텐츠
+- 스프링부트는 기본적으로 제공함
+- static folder 에 hello-static.html을 작성하고, web에서 접속 완료
+  - 내장 톰켓 서버가 받고 스프링에 넘김
+  - 스프링 컨테이너에 관련 컨트롤러가 없으니 static으로 감
+    - 이건 컨트롤러에 우선권이 있다는 것임
+  - 즉 resources에 있는 hello-static을 찾고 반환
+## MVC (model - view - controller)와 템플릿 엔진
+- 웹 브라우저에서 톰켓 서버로 주소를 보내면 스프링이 컨트롤러에서 찾아서 처리
+- 스프링이 viewResolver(뷰를 찾아주고 엔진 연결)로 처리
+- 랜더링 후 변환하여 웹브라우저에 반환을 해준다.
+## API (Application Program Interface)
+
