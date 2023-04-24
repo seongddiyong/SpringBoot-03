@@ -26,4 +26,8 @@
 - 스프링이 viewResolver(뷰를 찾아주고 엔진 연결)로 처리
 - 랜더링 후 변환하여 웹브라우저에 반환을 해준다.
 ## API (Application Program Interface)
+- @Responsebody : http에서 헤더와 바디로 나눌 때, 바디쪽의 데이터를 내가 직접 넣어주겠다.
+- class를 생성해 getter/setter를 생성하고 진행
+  - JSON (Key:Value의 구조) 형태로 데이터 반환됨
+### Getter/Setter
 
