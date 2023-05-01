@@ -11,7 +11,7 @@
     - spring boot는 먼저 index.html을 찾는다. static에 있는 index.html을 찾고 못찾으면 index template에서 찾아보고.. 이런 식 (공식 문서)
 -  메뉴얼에서 검색을 할 수 있어야 합니다.
 
-## thymleaf 템플릿 엔진
+### thymleaf 템플릿 엔진
 
 ---
 ## 정적 컨텐츠
@@ -30,4 +30,10 @@
 - class를 생성해 getter/setter를 생성하고 진행
   - JSON (Key:Value의 구조) 형태로 데이터 반환됨
 ### Getter/Setter
+---
+# 실습?
+- domain package
+- repository
+  - 회원 객체를 저장하는 저장소
+  - Member interface
 
